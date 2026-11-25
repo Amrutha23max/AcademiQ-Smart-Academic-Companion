@@ -87,16 +87,16 @@ database/sample_data.sql    optional demo data
 ## Screenshots
 
 ### Dashboard
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](screenshots/dashboard.jpeg)
 
 ### Assignments
-![Assignments](screenshots/assignments.png)
+![Assignments](screenshots/assignments.jpeg)
 
 ### Academic summary
-![Academic summary](screenshots/summary.png)
+![Academic summary](screenshots/summary.jpeg)
 
 ### Study planner
-![Study planner](screenshots/study-planner.png)
+![Study planner](screenshots/study-planner.jpeg)
 
 Each feature package follows the same layering: `ui` (JavaFX screens) -> `service` (rules and validation) -> `dao` (SQL) -> MySQL, with plain classes in `model`.
 
