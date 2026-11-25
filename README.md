@@ -1,6 +1,6 @@
 # AcademiQ
 
-A desktop app for students to keep track of their academic life: subjects, assignments, notes, attendance, marks, exams and study goals in one place. Built with JavaFX and MySQL.
+A simple app for students to keep track of their academic life: subjects, assignments, notes, attendance, marks, exams and study goals in one place. Built with JavaFX and MySQL.
 
 ## Features
 
@@ -84,6 +84,19 @@ src/main/java/com/academiq/
 src/main/resources/sql/     table creation scripts
 database/sample_data.sql    optional demo data
 ```
+## Screenshots
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Assignments
+![Assignments](screenshots/assignments.png)
+
+### Academic summary
+![Academic summary](screenshots/summary.png)
+
+### Study planner
+![Study planner](screenshots/study-planner.png)
 
 Each feature package follows the same layering: `ui` (JavaFX screens) -> `service` (rules and validation) -> `dao` (SQL) -> MySQL, with plain classes in `model`.
 
