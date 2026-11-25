@@ -33,7 +33,7 @@ A simple app for students to keep track of their academic life: subjects, assign
 ### Setup
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Sirisha8374/AcademiQ-Smart-Academic-Companion
 cd AcademiQ
 cp academiq.properties.example academiq.properties
 ```
