@@ -1,0 +1,23 @@
+# Copy this file to academiq.properties and set your own MySQL login.
+# academiq.properties is git-ignored so your password is never committed.
+
+db.url=jdbc:mysql://localhost:3306/academiq?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true
+db.user=root
+db.password=
+
+# Minimum attendance percentage required by your college
+attendance.threshold=75
+
+# Announce assignments due within this many hours; check every N seconds
+reminder.hoursBefore=48
+reminder.checkSeconds=60
+
+# Folder where uploaded notes are stored
+files.dir=academiq_files
+
+# Grade boundaries (minimum percentage). Uncomment and adjust for your institution.
+# grade.O=90
+# grade.A+=80
+# grade.A=70
+# grade.B=60
+# grade.C=50
