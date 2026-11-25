@@ -101,3 +101,4 @@ database/sample_data.sql    optional demo data
 Each feature package follows the same layering: `ui` (JavaFX screens) -> `service` (rules and validation) -> `dao` (SQL) -> MySQL, with plain classes in `model`.
 
 Screens are registered by class name in `ModuleRegistry` and loaded by `ModuleHost`, so adding a new screen means writing a class that implements `ModulePanel` and adding one line to the registry.
+project demonstration link(uncompressed version) : https://drive.google.com/file/d/1xK-SsreCcyLBeGI4l57soNIooCw8DqFV/view?usp=sharing
